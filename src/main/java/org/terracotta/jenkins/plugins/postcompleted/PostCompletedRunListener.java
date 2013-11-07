@@ -13,6 +13,7 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 @Extension
@@ -22,6 +23,8 @@ public class PostCompletedRunListener extends RunListener<Run> implements Descri
   private final static Logger LOG = Logger.getLogger(PostCompletedRunListener.class.getName());
 
   public PostCompletedRunListener() {
+    client.setConnectTimeout(30, TimeUnit.SECONDS);
+    client.setReadTimeout(30, TimeUnit.SECONDS);
   }
 
   @Override
