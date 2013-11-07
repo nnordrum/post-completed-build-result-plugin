@@ -34,4 +34,24 @@
     </pluginRepository>
   </pluginRepositories>
 
+  <scm>
+    <url>https://github.com/Terracotta-OSS/post-completed-build-result-plugin</url>
+    <tag>HEAD</tag>
+    <connection>scm:git:ssh://git@github.com/Terracotta-OSS/post-completed-build-result-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Terracotta-OSS/post-completed-build-result-plugin.git</developerConnection>
+  </scm>
+
+
+  <developers>
+    <developer>
+      <id>anthonydahanne</id>
+      <name>Anthony Dahanne</name>
+      <email>anthony.dahanne@gmail.com</email>
+      <organization>Terracotta</organization>
+      <organizationUrl>http://www.terracotta.org</organizationUrl>
+    </developer>
+  </developers>
+
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/Post+Completed+Build+Result+Plugin</url>
+
 </project>
