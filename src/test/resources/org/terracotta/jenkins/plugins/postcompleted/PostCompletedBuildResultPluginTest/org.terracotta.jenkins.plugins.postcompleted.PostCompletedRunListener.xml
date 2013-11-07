@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.terracotta.jenkins.plugins.postcompleted.PostCompletedRunListener_-DescriptorImpl plugin="post-completed-build-result@1.0-SNAPSHOT">
+  <urlToSubmitTo>http://localhost:43434/service</urlToSubmitTo>
+</org.terracotta.jenkins.plugins.postcompleted.PostCompletedRunListener_-DescriptorImpl>
